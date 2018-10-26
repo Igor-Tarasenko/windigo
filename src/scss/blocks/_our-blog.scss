@@ -1,0 +1,65 @@
+.our-blog {
+	background: #f8f6f2;
+	padding: 140px 0;
+	h2 {
+		color: #151515;
+	}
+	.good-game {
+		background: url("../img/Good-game.png") no-repeat center;
+		height: 212px;
+		margin-top: -25px;
+		margin-bottom: -40px;
+	}
+	.blog-article {
+		text-align: left;
+		margin-top: 50px;
+		img {
+			width: 100%;
+			border-radius: 5px 5px 115px 5px;
+			border: 2px solid transparent;
+			margin-bottom: 15px;
+			transition: .3s;
+		}
+		p {
+			font-family: $regular-font;
+			font-size: 16px;
+			color: #959595;
+			transition: .3s;
+			margin-bottom: 15px;
+		}
+		.next-step {
+			display: inline-block;
+			padding-right: 18px;
+			background: url("../img/arrow.png") no-repeat center right;
+			font-family: $description-font;
+			font-size: 12px;
+			color: #1c1c1c;
+			text-transform: uppercase;
+			transition: .3s;
+		}
+		&:hover {
+			img {
+				border: 2px solid #83e776;
+			}
+			.next-step {
+				color: #83e776;
+			}
+			p {
+				color: #000000;
+			}
+		}
+	}
+	.btn-block {
+		.btn {
+			border: 2px solid #191919;
+			color: #1d1d1d;
+			background: transparent;
+			padding: 21px 43px;
+			&:hover {
+				box-shadow: 0px 15px 30px 0px rgba(25, 25, 25, 0.3);
+				background: #1d1d1d;
+				color: #ffffff;
+			}
+		}
+	}
+}

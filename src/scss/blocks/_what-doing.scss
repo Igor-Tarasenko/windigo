@@ -1,0 +1,30 @@
+.what-doing {
+	background: url("../img/fx.png") no-repeat top center;
+	padding: 140px 0 100px 0;
+	h2 {
+		color: #ffffff;
+	}
+	.what-doing_information-block {
+		margin-top: 80px;
+		.what-doing_description {
+			border: 2px solid #1e1e1e;
+			border-radius: 5px 5px 50px 5px;
+			height: 300px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			img {
+				margin-bottom: 15px;
+			}
+			p {
+				color: #ffffff;
+				font-size: 16px;
+				text-transform: uppercase;
+				font-family: $bold-font;
+				padding: 0 84px;
+				text-align: center;
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+footer {
+	background: #0f0f0f;
+	padding: 38px 0 0 0;
+	.left-information {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		margin-left: -170px;
+		p {
+			font-family: $light-font;
+			font-size: 16px;
+			color: #ffffff;
+			margin-left: 20px;
+		}
+	}
+	.social-icons {
+		position: relative;
+		top: 4px;
+		margin-right: -105px;
+		ul {
+			flex-direction: row;
+			justify-content: flex-end;
+			li {
+				a {
+					padding: 0 40px 62px 40px;
+					border-bottom: 4px solid transparent;
+					border-right: none;
+					&:hover {
+						border-right: none;
+						border-bottom: 4px solid #83e776;
+					}
+				}
+			}
+		}
+	}
+	.facebook, .linkedin, .telegram, .be {
+		background-position: top center;
+		&:hover {
+			background-position: top center;
+		}
+	}
+}

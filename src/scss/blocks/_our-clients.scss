@@ -1,0 +1,56 @@
+.our-clients {
+	background: #f8f6f2;
+	padding: 140px 0;
+	h2 {
+		color: #151515;
+	}
+	.brands-img {
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		align-items: center;
+		margin-top: 50px;
+		a {
+			cursor: pointer;
+			margin-right: 90px;
+			margin-top: 40px;
+		}
+	}
+	.farmbet {
+		background: url("../img/farm.png") no-repeat;
+		width: 232px;
+		height: 30px;
+	}
+	.uesf {
+		background: url("../img/uesf.png") no-repeat;
+		width: 173px;
+		height: 84px;
+	}
+	.windigo {
+		background: url("../img/windigoarena.png") no-repeat;
+		width: 156px;
+		height: 84px;
+	}
+	.csmoney {
+		background: url("../img/csmoney.png") no-repeat;
+		width: 186px;
+		height: 59px;
+	}
+	.windigogaming {
+		background: url("../img/gaming.png") no-repeat;
+		width: 94px;
+		height: 121px;
+	}
+	.zirka {
+		background: url("../img/zirka.png") no-repeat;
+		width: 209px;
+		height: 56px;
+	}
+	.grey {
+		transition: .3s ease;
+		filter: grayscale(100%);
+		&:hover {
+			filter: grayscale(0%);
+		}
+	}
+}

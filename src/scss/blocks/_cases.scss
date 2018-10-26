@@ -1,0 +1,111 @@
+.cases {
+	background: url("../img/fx.png") no-repeat top center;
+	padding: 140px 0 100px 0;
+	h2 {
+		color: #ffffff;
+	}
+	.slider {
+		position: relative;
+		z-index: 20;
+		margin-top: 90px;
+		.slick-prev, .slick-next {
+			position: absolute;
+			top: 50%;
+			margin-top: -12px;
+			z-index: 50;
+			outline: none;
+		}
+		.slick-prev {
+			background: url("../img/leftwhitearrow.png") no-repeat center;
+			width: 30px;
+			height: 24px;
+			transition: .3s ease;
+			border: none;
+			cursor: pointer;
+			left: -30px;
+			&:hover {
+				background: url("../img/leftgreenarrow.png") no-repeat center;
+			}
+		}
+		.slick-next {
+			background: url("../img/rightwhitearrow.png") no-repeat center;
+			width: 30px;
+			height: 24px;
+			transition: .3s ease;
+			border: none;
+			cursor: pointer;
+			right: -30px;
+			&:hover {
+				background: url("../img/rightgreenarrow.png") no-repeat center;
+			}
+		}
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: -116px;
+			background: url("../img/hover.png");
+			background-size: cover;
+			width: 132px;
+		}
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: -116px;
+			transform: rotate(180deg);
+			background: url("../img/hover.png");
+			background-size: cover;
+			width: 132px;
+		}
+	}
+	.slider-item {
+		border: 2px solid transparent;
+		border-radius: 5px 5px 100px 5px;
+		position: relative;
+		width: 304px;
+		transition: .3s ease;
+		overflow: hidden;
+		margin: 0 30px;
+		img {
+			width: 100%;
+		}
+		.description {
+			position: absolute;
+			right: 25px;
+			left: 25px;
+			bottom: 25px;
+			.small-logo {
+				background: url("../img/small-logo.png") no-repeat left;
+				height: 28px;
+				margin-bottom: 10px;
+			}
+			a {
+				color: #ffffff;
+				font-size: 16px;
+				font-family: $bold-font;
+				text-transform: uppercase;
+				margin-bottom: 15px;
+				transition: .3s ease;
+				display: block;
+				cursor: pointer;
+			}
+			p {
+				font-family: $regular-font;
+				color: #ffffff;
+				font-size: 16px;
+				margin-bottom: 0;
+			}
+		}
+		&:hover {
+			border: 2px solid #83e776;
+			.description a {
+				color: #83e776;
+			}
+		}
+	}
+}
