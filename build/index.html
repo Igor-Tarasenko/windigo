@@ -17,24 +17,25 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="navbars" style="">
+                <button class="close"></button>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">О нас</a>
+                        <a class="nav-link" href="#about">О нас</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Что мы делаем</a>
+                        <a class="nav-link" href="#what-doing">Что мы делаем</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Наши клиенты</a>
+                        <a class="nav-link" href="#our-cliets">Наши клиенты</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Наши кейсы</a>
+                        <a class="nav-link" href="#cases">Наши кейсы</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Наш блог</a>
+                        <a class="nav-link" href="#our-blog">Наш блог</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Контакты</a>
+                        <a class="nav-link" href="#contact">Контакты</a>
                     </li>
                 </ul>
                 <div class="social-icons">
@@ -64,19 +65,19 @@
             <div class="col-12">
                 <h1>маркетинговые <span>решения</span> для ...</h1>
             </div>
-            <div class="col-lg-4 information-block">
+            <div class="col-lg-4 col-sm-4 information-block">
                 <div class="information-block_description">
                     <img src="./img/joystick.png" alt="">
                     <p>игровой индустрии</p>
                 </div>
             </div>
-            <div class="col-lg-4 information-block">
+            <div class="col-lg-4 col-sm-4 information-block">
                 <div class="information-block_description">
                     <img src="./img/organisation.png" alt="">
                     <p>киберспортивных организаций</p>
                 </div>
             </div>
-            <div class="col-lg-4 information-block">
+            <div class="col-lg-4 col-sm-4 information-block">
                 <div class="information-block_description">
                     <img src="./img/startup.png" alt="">
                     <p>старт-апов</p>
@@ -89,7 +90,7 @@
     </div>
 </section>
 <main>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -112,25 +113,25 @@
             </div>
         </div>
     </section>
-    <section class="what-doing">
+    <section class="what-doing" id="what-doing">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <h2>Что мы делаем <span>отлично</span></h2>
                 </div>
-                <div class="col-lg-4 what-doing_information-block">
+                <div class="col-lg-4 col-sm-4 what-doing_information-block">
                     <div class="what-doing_description">
                         <img src="./img/earth.png" alt="">
                         <p>диджитал маркетинг</p>
                     </div>
                 </div>
-                <div class="col-lg-4 what-doing_information-block">
+                <div class="col-lg-4 col-sm-4 what-doing_information-block">
                     <div class="what-doing_description">
                         <img src="./img/pancil.png" alt="">
                         <p>дизайн и брендинг</p>
                     </div>
                 </div>
-                <div class="col-lg-4 what-doing_information-block">
+                <div class="col-lg-4 col-sm-4 what-doing_information-block">
                     <div class="what-doing_description">
                         <img src="./img/doc.png" alt="">
                         <p>контент маркетинг</p>
@@ -142,7 +143,7 @@
             </div>
         </div>
     </section>
-    <section class="our-clients">
+    <section class="our-clients" id="our-cliets">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -161,7 +162,7 @@
             </div>
         </div>
     </section>
-    <section class="cases">
+    <section class="cases" id="cases">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -237,7 +238,7 @@
             </div>
         </div>
     </section>
-    <section class="our-blog">
+    <section class="our-blog" id="our-blog">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -246,47 +247,70 @@
                 <div class="col-12">
                     <div class="good-game"></div>
                 </div>
-                <article class="col-lg-4 blog-article">
+                <article class="col-lg-4 col-sm-4 blog-article">
                     <a href="#">
-                        <img src="./img/blog.png" alt="">
-                        <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
-                        <a href="#" class="next-step">далее</a>
+                        <div class="blog-article_main-block">
+                            <img src="./img/blog.png" alt="">
+                            <div class="description-for-article">
+                                <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
+                                <a href="#" class="next-step">далее</a>
+                            </div>
+                        </div>
                     </a>
                 </article>
-                <article class="col-lg-4 blog-article">
+                <article class="col-lg-4 col-sm-4 blog-article">
                     <a href="#">
-                        <img src="./img/blog.png" alt="">
-                        <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
-                        <a href="#" class="next-step">далее</a>
+                        <div class="blog-article_main-block">
+                            <img src="./img/blog.png" alt="">
+                            <div class="description-for-article">
+                                <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
+                                <a href="#" class="next-step">далее</a>
+                            </div>
+                        </div>
                     </a>
                 </article>
-                <article class="col-lg-4 blog-article">
+                <article class="col-lg-4 col-sm-4 blog-article">
                     <a href="#">
-                        <img src="./img/blog.png" alt="">
-                        <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
-                        <a href="#" class="next-step">далее</a>
+                        <div class="blog-article_main-block">
+                            <img src="./img/blog.png" alt="">
+                            <div class="description-for-article">
+                                <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
+                                <a href="#" class="next-step">далее</a>
+                            </div>
+                        </div>
                     </a>
                 </article>
-                <article class="col-lg-4 blog-article">
+                <article class="col-lg-4 col-sm-4 blog-article">
                     <a href="#">
-                        <img src="./img/blog.png" alt="">
-                        <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
-                        <a href="#" class="next-step">далее</a>
+                        <div class="blog-article_main-block">
+                            <img src="./img/blog.png" alt="">
+                            <div class="description-for-article">
+                                <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
+                                <a href="#" class="next-step">далее</a>
+                            </div>
+                        </div>
                     </a>
                 </article>
-                <article class="col-lg-4 blog-article">
+                <article class="col-lg-4 col-sm-4 blog-article">
                     <a href="#">
-                        <img src="./img/blog.png" alt="">
-                        <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
-                        <a href="#" class="next-step">далее</a>
+                        <div class="blog-article_main-block">
+                            <img src="./img/blog.png" alt="">
+                            <div class="description-for-article">
+                                <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
+                                <a href="#" class="next-step">далее</a>
+                            </div>
+                        </div>
                     </a>
                 </article>
-                <article class="col-lg-4 blog-article">
+                <article class="col-lg-4 col-sm-4 blog-article">
                     <a href="#">
-                        <img src="./img/blog.png" alt="">
-                        <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
-                        <a href="#" class="next-step">далее</a>
-                    </a>
+                        <div class="blog-article_main-block">
+                            <img src="./img/blog.png" alt="">
+                            <div class="description-for-article">
+                                <p>Длинный заголовок который очень цепляет целевуцю аудиторию и имеет много букв...</p>
+                                <a href="#" class="next-step">далее</a>
+                            </div>
+                        </div>
                 </article>
                 <div class="col-12 btn-block">
                     <a class="btn">загрузить еще</a>
@@ -294,7 +318,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -336,7 +360,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="left-information">
                     <a href="#" class="footer-logo">
                         <img src="./img/footer-logo.png" alt="">
@@ -344,7 +368,7 @@
                     <p>COPYRIGHT 2018</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="social-icons">
                     <ul class="social-icons-list">
                         <li class="list">

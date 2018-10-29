@@ -15,8 +15,9 @@ footer {
 	}
 	.social-icons {
 		position: relative;
-		top: 4px;
+		top: 0;
 		margin-right: -105px;
+		margin-top: 5px;
 		ul {
 			flex-direction: row;
 			justify-content: flex-end;
@@ -28,6 +29,7 @@ footer {
 					&:hover {
 						border-right: none;
 						border-bottom: 4px solid #83e776;
+						border-left: none;
 					}
 				}
 			}

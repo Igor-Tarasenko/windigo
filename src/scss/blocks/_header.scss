@@ -1,5 +1,5 @@
 .header-section {
-	background: url("../img/Co-workers.png") no-repeat;
+	background: url("../img/Co-workers.png") no-repeat center;
 	height: 1070px;
 	background-size: cover;
 	header {
@@ -148,4 +148,12 @@
 	&:hover {
 		background: url("../img/be-hover.png") no-repeat center;
 	}
+}
+.navbar-toggler {
+	background: url("../img/burger.png") no-repeat;
+	width: 23px;
+	height: 20px;
+}
+header .close {
+	display: none;
 }
